@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quotes</title>
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/quotes.css" />
+  </head>
+  <body>
+    <h1>Quotes</h1>
+    <div id="quotes-wrapper"></div>
+    <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-firestore.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyAKeLut1PHNcKn4y9pXJtPF6hL0KsZBeBI",
+        authDomain: "newagent-dbfce.firebaseapp.com",
+        databaseURL: "https://newagent-dbfce.firebaseio.com",
+        projectId: "newagent-dbfce",
+        storageBucket: "newagent-dbfce.appspot.com",
+        messagingSenderId: "631857633633",
+        appId: "1:631857633633:web:cea70af1bc777a8fd90d20",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
