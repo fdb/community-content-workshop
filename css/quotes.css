@@ -20,3 +20,47 @@ blockquote p.cite {
 blockquote p.cite:before {
   content: "—";
 }
+
+form {
+  margin: 0 1rem;
+}
+
+form h2 {
+  font-size: 1.3rem;
+  margin-top: 5rem;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 1rem;
+}
+
+.form-row span {
+  display: block;
+  font-weight: bold;
+}
+
+.form-row textarea {
+  width: 40rem;
+  font: inherit;
+  padding: 1rem;
+}
+
+.form-row input[type="text"] {
+  padding: 0.2rem 0.8rem;
+  font: inherit;
+
+  width: 40rem;
+}
+
+.form-row input[type="submit"] {
+  display: inline-block;
+  width: 40rem;
+  border: none;
+  background: #329fe2;
+  border-radius: 3px;
+  color: #eee;
+  font: inherit;
+}

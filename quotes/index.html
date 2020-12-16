@@ -10,6 +10,22 @@
   <body>
     <h1>Quotes</h1>
     <div id="quotes-wrapper"></div>
+    <form>
+      <h2>Add a new quote</h2>
+      <div class="form-row">
+        <label
+          ><span>Quote</span>
+          <textarea id="text-field" name="text" cols="30" rows="10"></textarea>
+        </label>
+      </div>
+      <div class="form-row">
+        <label
+          ><span>Author</span>
+          <input id="author-field" type="text" name="author" />
+        </label>
+      </div>
+      <div class="form-row"><input type="submit" value="Send quote" /></div>
+    </form>
     <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-firestore.js"></script>
 
