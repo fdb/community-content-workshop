@@ -64,3 +64,12 @@ form h2 {
   color: #eee;
   font: inherit;
 }
+
+@media (prefers-color-scheme: dark) {
+  blockquote {
+    background-color: #42494d;
+  }
+  blockquote p.cite {
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
